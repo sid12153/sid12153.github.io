@@ -140,13 +140,65 @@ bg-[#fcfcfc]
 -->
 
 <!-- Top border accent -->
- <nav class="bg-white 
+<nav class="bg-white shadow-sm">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16 items-center">
+
+      <!-- Left Side: Dynamic Portfolio Title -->
+      <div class="flex items-center">
+        <a href="/" class="font-mono sm:text-base text-sm" id="nav-text">
+          <span class="text-gray-900">Siddharth Gosawi, The </span>
+          <span class="text-ds_blue" id="dynamic-role"></span>
+          <span class="text-gray-900"> Portfolio</span>
+        </a>
+      </div>
+
+      <!-- Right Side: Animated Marquee Message -->
+      <div class="hidden md:flex items-center space-x-1 overflow-hidden w-64">
+        <p id="marquee-text" class="whitespace-nowrap animate-marquee">
+          Hope you are Having a good day! Thanks for visiting my portfolio site!
+        </p>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<!-- JavaScript for Dynamic Title -->
+<script>
+  const roles = ["Data Scientist's", "ML Engineer's", "AI Enthusiast's", "Data Viz Expert's", "Problem Solver's"];
+  let index = 0;
+
+  function changeRole() {
+      document.getElementById("dynamic-role").textContent = roles[index];
+      index = (index + 1) % roles.length;
+  }
+
+  changeRole();
+  setInterval(changeRole, 3000);
+</script>
+
+<!-- CSS for Marquee Animation -->
+<style>
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .animate-marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 8s linear infinite;
+  }
+</style>
+
+<!--  <nav class="bg-white 
 shadow-sm
 ">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16">
       <!-- Left side - Logo -->
-      <div class="flex items-center">
+<!--       <div class="flex items-center">
         <div class="flex-shrink-0 flex items-center">
     <a href="/" class="font-mono  sm:text-base text-sm">
         <span class="text-gray-900">datascience</span><span class="text-ds_blue">portfol.io/</span><span class="text-ds_blue  sm:inline hidden">siddharthgosawi</span></a>
@@ -156,7 +208,7 @@ shadow-sm
 	<div class="hidden md:flex items-center space-x-1">
         <p>Hope you are Having a good day! Thanks for visiting my portfolio site!</p>
 	<div>
-
+ --> 
 
       <!-- Mobile menu button -->
       <div class="flex items-center md:hidden">
