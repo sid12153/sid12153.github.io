@@ -140,7 +140,23 @@ bg-[#fcfcfc]
 -->
 
 <!-- Top border accent -->
- 
+ <nav class="bg-white 
+shadow-sm
+">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16">
+      <!-- Left side - Logo -->
+      <div class="flex items-center">
+        <div class="flex-shrink-0 flex items-center">
+    <a href="/" class="font-mono  sm:text-base text-sm">
+        <span class="text-gray-900">datascience</span><span class="text-ds_blue">portfol.io/</span><span class="text-ds_blue  sm:inline hidden">siddharthgosawi</span></a>
+  </div>   
+
+      </div>
+	<div class="hidden md:flex items-center space-x-1">
+        <p>Hope you are Having a good day! Thanks for visiting my portfolio site!</p>
+	<div>
+
 
       <!-- Mobile menu button -->
       <div class="flex items-center md:hidden">
@@ -158,10 +174,7 @@ bg-[#fcfcfc]
   <div class="hidden md:hidden border-t border-gray-100" id="mobile-menu">
     <div class="px-2 pt-2 pb-3 space-y-1">
       <p>Hope you are Having a good day! Thanks for visiting my portfolio site!</p>
-      
-      <a href="/login" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md">
-        Sign in
-      </a>
+
       
     </div>
   </div>
@@ -499,14 +512,14 @@ With hands-on experience in data science, predictive modeling, and analytics, I 
 
 <!-- Start projects -->
 <div>
-    <p class="flex text-sm text-gray-600 pt-0 pb-0 font-mono uppercase">Projects</p>
+    <p class="flex text-sm text-gray-600 pt-0 pb-0 font-mono uppercase"><h2><strong>Projects</strong></h2></p>
 </div>
 
 <!-- Grid container for projects -->
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-2">
 
     <!-- E-Commerce Sales Dashboard -->
-    <div class="bg-white shadow-lg border border-gray-200 rounded-2xl transform transition-all duration-200 hover:shadow-lg">
+<!--     <div class="bg-white shadow-lg border border-gray-200 rounded-2xl transform transition-all duration-200 hover:shadow-lg">
         <a class="group">
             <img class="w-full mb-2 rounded-t-2xl border-0" src="/project_pic.jpg" alt="Project photo">
             <div class="px-4 pb-4">
@@ -521,7 +534,44 @@ With hands-on experience in data science, predictive modeling, and analytics, I 
                 <p>This <strong>interactive Power BI dashboard</strong> provides insights into <strong>sales trends (2015-2018)</strong> by analyzing <strong>customer segmentation, revenue trends, and order patterns</strong>. The dashboard improved <strong>reporting efficiency by 25%</strong>strong>, enabling businesses to track <strong>total revenue, average order value, and customer segments</strong>strong> for better decision-making.</p>
             </div>
         </a>
-    </div>
+    </div> -->
+    <div class="bg-white shadow-lg border border-gray-200 rounded-2xl transform transition-all duration-200 hover:shadow-lg">
+    	<a class="group">
+        <img class="w-full mb-2 rounded-t-2xl border-0" src="/project_pic.jpg" alt="Project photo">
+        <div class="px-4 pb-4">
+            <p class="text-md text-gray-900 mb-1 font-semibold group-hover:underline">
+                <strong>E-Commerce Sales Dashboard</strong>
+            </p>
+            <div class="mt-2">
+                <button class="px-2.5 py-0.5 rounded-full text-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">PowerBI</button>
+                <button class="px-2.5 py-0.5 rounded-full text-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">Python</button>
+                <button class="px-2.5 py-0.5 rounded-full text-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">DAX</button>
+            </div>
+
+            <p class="flex text-sm text-gray-600 sm:mt-12 mt-8 mb-2 font-mono uppercase">About this project</p>
+            <p>This <strong>interactive Power BI dashboard</strong> provides insights into <strong>sales trends (2015-2018)</strong> by analyzing <strong>customer segmentation, revenue trends, and order patterns</strong>. The dashboard improved <strong>reporting efficiency by 25%</strong>, enabling businesses to track <strong>total revenue, average order value, and customer segments</strong> for better decision-making.</p>
+
+            <!-- Project Links Section -->
+            <p class="flex text-sm text-gray-600 sm:mt-12 mt-8 mb-2 font-mono uppercase">Project links</p>
+            
+            <div class="flex items-center">
+                <a href="https://github.com/sid12153/Ecommerce-Sales-Dashboard-PowerBI-Analytics" target="_blank" class="items-center">
+                    <button class="bg-gray-50 mr-2 items-center mt-0 rounded-full text-sm border-0 text-gray-900 ml-0 py-2 px-2 flex hover:underline-offset-2 hover:underline hover:text-ds_blue hover:bg-gray-50">
+                        <svg width="1024" height="1024" viewBox="0 0 1024 1024" class="h-5 w-5 mr-1" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="currentColor"></path>
+                        </svg>
+                        GitHub
+                        <svg class="h-4 w-4 ml-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path>
+                        </svg>
+                    </button>
+                </a>
+            </div>
+	
+	    </div>
+	    </a>
+	</div>
+
 
     <!-- Bridge Pledge -->
     <div class="bg-white shadow-lg border border-gray-200 rounded-2xl transform transition-all duration-200 hover:shadow-lg">
@@ -620,7 +670,7 @@ With hands-on experience in data science, predictive modeling, and analytics, I 
 
 
 <div class="sm:mt-12 mt-8">
-<p class="flex text-sm text-gray-600 pt-0 pb-0 font-mono  uppercase">Experience</p>
+<p class="flex text-sm text-gray-600 pt-0 pb-0 font-mono  uppercase"><h2>Experience</h2></p>
 </div>
 
 
@@ -681,7 +731,7 @@ With hands-on experience in data science, predictive modeling, and analytics, I 
 <div class="mb-6">
     <p class="text-sm text-gray-900 mt-2">May 2024 - August 2024
     </p>
-    <p class="text-md text-gray-900 mb-1 font-semibold"> Research Assistant(RA) Data Scientist at Indiana University</p>
+    <p class="text-md text-gray-900 mb-1 font-semibold"> Research Assistant (RA) Data Scientist at Indiana University</p>
     <p class="text-sm text-gray-600 mb-1">Worked on a deep learning project for elephant conservation, developing models that classified elephants based on their eye wrinkle patterns.
 
 
@@ -807,7 +857,7 @@ With hands-on experience in data science, predictive modeling, and analytics, I 
 
 
 <div class="sm:mt-12 mt-8">
-<p class="flex text-sm text-gray-600 pt-0 pb-0 font-mono  uppercase">Education</p>
+<p class="flex text-sm text-gray-600 pt-0 pb-0 font-mono  uppercase"><h2>Education</h2></p>
 </div>
 
 
@@ -824,8 +874,8 @@ Master of Science in Data Science (GPA: 3.91)</p>
 <p class="text-sm text-gray-600 mb-6">Courses: Applied Machine Learning, Computer Vision, Applied Database Technologies, Statistics, Information Visualization, Human Robot Interaction, Virtual Reality, Bioinformatics</p>
 
 <p class="text-sm text-gray-600 mb-6">Teaching &amp; Research:
-<li>Associate Instructor (TA): Taught NLP &amp; Time Series Analysis to 40+ graduate students, covering transformers, forecasting, and ML models.</li>
-</li>Research Assistant: Developed deep learning models for elephant identification using CNNs, image processing, and ensemble learning for wildlife conservation.</li>
+<li>Teaching Assistant (TA): Taught NLP &amp; Time Series Analysis to 40+ graduate students, covering transformers, forecasting, and ML models.</li>
+<li>Research Assistant (RA): Developed deep learning models for elephant identification using CNNs, image processing, and ensemble learning for wildlife conservation.</li>
 </p>
     
 
