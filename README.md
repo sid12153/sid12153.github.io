@@ -6,10 +6,10 @@ Welcome to my **Data Science Portfolio**! This site showcases my work in **Machi
 
 ---
 
-## 📌 What's Inside?  
-- 🎯 **Projects** – Hands-on ML/DL applications in analytics, computer vision, NLP, and Power BI.  
-- 🛠 **Skills** – Python, TensorFlow, SQL, Power BI, Tableau, and more.  
-- 💼 **Experience** – TA & RA roles, AI research, and real-world consulting work.  
+## What's Inside?  
+- **Projects** – Hands-on ML/DL applications in analytics, computer vision, NLP, and Power BI.  
+- **Skills** – Python, TensorFlow, SQL, Power BI, Tableau, and more.  
+- **Experience** – TA & RA roles, AI research, and real-world consulting work.  
 
 ---
 
@@ -20,6 +20,6 @@ git clone https://github.com/sid12153/sid12153.github.io.git
 ```
 
 ##  Contact
-📧 Email: [mailto:siddharth.gosawi@gmail.com]siddharth.gosawi@gmail.com
-💼 LinkedIn: linkedin.com/in/siddharthgosawi
-🐙 GitHub: github.com/sid12153
+-📧 Email: [siddharth.gosawi@gmail.com](mailto:siddharth.gosawi@gmail.com)
+-💼 LinkedIn: [linkedin.com/in/siddharthgosawi](https://www.linkedin.com/in/siddharth-gosawi)
+-🐙 GitHub: [github.com/sid12153](https://github.com/sid12153)
