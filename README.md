@@ -20,6 +20,6 @@ git clone https://github.com/sid12153/sid12153.github.io.git
 ```
 
 ##  Contact
--📧 Email: [siddharth.gosawi@gmail.com](mailto:siddharth.gosawi@gmail.com)
--💼 LinkedIn: [linkedin.com/in/siddharthgosawi](https://www.linkedin.com/in/siddharth-gosawi)
--🐙 GitHub: [github.com/sid12153](https://github.com/sid12153)
+- 📧 Email: [siddharth.gosawi@gmail.com](mailto:siddharth.gosawi@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/siddharthgosawi](https://www.linkedin.com/in/siddharth-gosawi)
+- 🐙 GitHub: [github.com/sid12153](https://github.com/sid12153)
