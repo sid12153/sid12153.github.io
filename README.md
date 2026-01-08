@@ -1,23 +1,50 @@
-# Siddharth Gosawi - Data Science Portfolio  
+# Siddharth Gosawi – Data Science Portfolio
 
-Welcome to my **Data Science Portfolio**! This site showcases my work in **Machine Learning, Deep Learning, AI, and Data Visualization**, highlighting real-world applications in **business intelligence, causal inference, computer vision, and NLP**.  
+This repository hosts my personal **Data Science and Analytics portfolio**, showcasing real-world projects across **machine learning, decision intelligence, business analytics, and AI systems**.
 
-🔗 **Live Portfolio:** [sid12153.github.io](https://sid12153.github.io)  
+The focus of this portfolio is not just modeling, but **end-to-end problem solving** — from raw data and metrics to interpretable models and decision-ready insights.
 
----
-
-## What's Inside?  
-- **Projects** – Hands-on ML/DL applications in analytics, computer vision, NLP, and Power BI.  
-- **Skills** – Python, TensorFlow, SQL, Power BI, Tableau, and more.  
-- **Experience** – TA & RA roles, AI research, and real-world consulting work.  
+🔗 **Live Portfolio:** https://sid12153.github.io
 
 ---
 
-## ⚡ How to Use  
+## What You’ll Find Here
+
+### 📊 Projects
+A curated set of applied projects spanning:
+- Business and Decision Intelligence
+- Machine Learning and Explainable AI
+- Probabilistic Modeling and Risk Analysis
+- NLP and Retrieval-Augmented Generation (RAG)
+- Data Visualization with Power BI and Excel
+
+Each project emphasizes **interpretability, metrics, and real-world relevance**, rather than experimental modeling alone.
+
+---
+
+### 🧠 Skills & Tools
+- **Languages:** Python, SQL, R, Bash  
+- **ML & AI:** Scikit-learn, TensorFlow, PyTorch, XGBoost, NLP, CNNs  
+- **Analytics & BI:** Power BI, Tableau, Excel, DAX  
+- **Data Systems:** PostgreSQL, FAISS  
+- **Practices:** Statistical analysis, causal inference, A/B testing, explainability (SHAP)
+
+---
+
+### 🎓 Experience
+- **Data Scientist (Project 990 Inc.)** – LLMs, ML, RAG, Data Engineering, Decision Intelligence, Data Analytics, Dashboards
+- **Teaching Assistant (Indiana University)** – NLP & Time Series Analysis  
+- **Research Assistant (Indiana University)** – Deep learning for wildlife conservation  
+- **Data Science Intern (ISRO)** – Infrared object detection and tracking  
+
+---
+
+## How to Use  
 ### Clone the repository:  
 ```bash
 git clone https://github.com/sid12153/sid12153.github.io.git
 ```
+Open index.html in your browser to view the site locally.
 
 ##  Contact
 - 📧 Email: [siddharth.gosawi@gmail.com](mailto:siddharth.gosawi@gmail.com)
